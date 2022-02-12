@@ -70,6 +70,97 @@ html {
 .image-container img {
   display: block;
 }
+/* sign up content */
+#sign-up-section {
+  background-image: url(../images/banner-landingpage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 43.5rem;
+}
+
+#sign-up-cta {
+  background-color: #9dc20a;
+  position: relative;
+  top: 10.625rem;
+  margin-left: 6.25rem;
+  border: 1px solid #979797;
+  border-radius: 0.25rem;
+  width: fit-content;
+}
+
+#sign-up-cta .content {
+  width: 25.625rem;
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: white;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+#sign-up-cta h1 {
+  font-size: 3.125rem;
+}
+
+#sign-up-cta h2 {
+  font-size: 2.25rem;
+}
+
+#sign-up-cta span strong {
+  font-weight: bold;
+}
+
+#sign-up-cta .cursive {
+  font-family: "Damion", cursive;
+}
+
+#sign-up-cta .striking {
+  font-family: "Rubik", sans-serif;
+  padding-bottom: .75rem;
+}
+
+#sign-up-cta .button {
+  margin-top: 1.625rem;
+  padding: 1.25rem 2.25rem;
+  background-color: #4a4a4a;
+  margin: 1.625rem 5rem 3.5rem 5rem;
+  border-radius: 0.25rem;
+}
+
+@media only screen and (max-width: 760px) {
+  #sign-up-section {
+    text-align: center;
+    height: 28rem;
+  }
+  #sign-up-cta {
+    background-color: transparent;
+    margin: 0 auto;
+    border: none;
+    border-radius: 0;
+  }
+
+  #sign-up-cta .email {
+    display: none;
+  }
+  #sign-up-cta .button{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  #sign-up-section {
+    height: 20rem;
+  }
+
+  #sign-up-cta h1 {
+    font-size: 2.25rem;
+  }
+
+  #sign-up-cta h2 {
+    font-size: 2rem;
+  }
+}
 
 /* Features Section */
 #features-section {
