@@ -98,6 +98,7 @@ html {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  text-align: center;
 }
 
 #filters-section .images-container .image-container {
@@ -109,6 +110,40 @@ html {
 #filters-section .images-container .image-container img {
   max-width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 760px) {
+  #filters-section {
+    padding: 1.5rem 0 0 0;
+  }
+
+  #filters-section .content {
+    margin-bottom: 1rem;
+  }
+
+  #filters-section .content h2 {
+    font-weight: normal;
+    line-height: 1.4;
+    font-size: 1.125rem;
+  }
+
+  #filters-setion .content h3 {
+    font-size: 0.875rem;
+    line-height: 1.7;
+  }
+
+  #filters-section .images-container {
+    padding: 0 0 0 0;
+    text-align: center;
+  }
+
+  #filters-section .images-container .image-container {
+    max-width: 30%;
+  }
+
+  #filters-section .extra {
+    display: none !important;
+  }
 }
 
 /* Quotes Section */
@@ -168,7 +203,7 @@ footer {
   float: right;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer {
     font-size: 0.625rem;
   }
